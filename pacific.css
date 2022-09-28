@@ -1,0 +1,125 @@
+body {
+   background-color: #00569f;
+   color: #666666;
+   background-image: url(ptrbackground.jpg);
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* CSS rules for the main header */
+h1 {
+   background-color: #0f0f30;
+   color: #f5fafc;
+   background-image: url(sunset.jpg);
+   padding: 10px;
+   background-position: right;
+   background-repeat: no-repeat;
+   font-family: Georgia, "Times New Roman", serif;
+   margin-bottom: 0;
+}
+/* CSS rules for the subheaders */
+h2 {
+   color: #3399cc;
+   font-family: Georgia, "Times New Roman", serif;
+   text-shadow: 1px 1px 1px #ccc;
+}
+/* CSS rules for the navigation bar */
+nav {
+   float: left;
+   width: 160px;
+   padding: 20px 5px 5px 20px;
+   font-weight: bold;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding-left: 0;
+   font-size: 1.2em;
+}
+nav a {
+   text-decoration: none;
+   -webkit-transition: color 3s ease-out;
+   -moz-transition: color 3s ease-out;
+   -o-transition: color 3s ease-out;
+   transition: color 3s ease-out;
+}
+nav a:link {
+   color: #000033 
+}
+nav a:visited {
+   color: #344873;
+}
+nav a:hover {
+   color: #ffffff;
+}
+div {
+   background-color: #ffffff;
+   margin-left: 190px;
+   padding-bottom: 1px;
+}
+.resort {
+   color: #297aa2;
+   font-weight: bold;
+}
+#wrapper {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   min-width: 960px;
+   background-color: #90c7e3;
+}
+/* CSS rules for the body content */
+#content {
+   background-color: #ffffff;
+   margin-left: 190px;
+   padding-left: 30px;
+   padding-top: 1px;
+}
+#content ul {
+   list-style-image: url(marker.gif);
+   list-style-position: inside;
+}
+#content img {
+   float: left;
+   padding-right: 20px;
+}
+/* CSS rules for the contact section */
+#contact {
+   font-size: 90%;
+   padding-top: 1px;
+   padding-left: 30px;
+}
+/* CSS rules for the footer */
+footer {
+   margin-left: 190px;
+   background-color: #ffffff;
+   padding: 20px;
+   font-size:75%;
+   font-style: italic;
+   font-family: Georgia, "Times New Roman", serif;
+   text-align: left;
+   opacity: 1;
+   clear: left;
+}
+/* CSS media query rules to account for the browser resizing (responsive web design) */
+@media only screen and (max-width: 768px){
+   body {
+       margin: 5px;
+  }
+   #wrapper {
+       min-width: 0;
+       width: auto;
+  }
+   #content {
+       margin-left: 150px;
+  }
+   #contact {
+       margin-left: 0;
+  }
+   nav {
+       float: left;
+       width: auto;
+       background-color: #90c7e3;
+  }
+   footer {
+       margin-left: 150px;
+  }
+}
